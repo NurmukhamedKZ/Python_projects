@@ -10,4 +10,5 @@ with open("readme.md", "a") as file:
 # this is a comment
 
 a = 10
-
+b=19
+print(a+b)
