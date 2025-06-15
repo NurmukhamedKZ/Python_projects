@@ -1,2 +1,2 @@
-def add(a, b):
-    return a+b
+num = int(input())
+print(num%100//10)
