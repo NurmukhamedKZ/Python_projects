@@ -6,12 +6,10 @@ def show_word(mas):
         answer += i+" "
     return answer
 
-words = [["a","p","p","l","e"],
-         ['h','e','l','l','o'],
-         ["l","i","f","e",],
-         ['s','u','m','m','e','r']]
+words = ["apple",
+         "hello"]
 
-word = random.choice(words)
+word = list(random.choice(words))
 showword = ["#"]*len(word)
 yellowwords = set()
 
