@@ -1,12 +1,6 @@
-#### Тармақталған алгоритмның шарт түрлері: 
-- **Қарапайым** - бір ғана шарт қолданылатын болса:
-``` python
-if num > 10:
-	print("hello")
-```
+- these are my python projects like: 
+	- Games
+	- Apps
+	- just testing python tools 
 
-- **Күрделі**(Құрамды) - шарт және **логикалык оператор** колданылса:
-``` python
-if num > 10 and num < 99:
-	print("hello")
-```
+- Final project is **WeatherAPI** app

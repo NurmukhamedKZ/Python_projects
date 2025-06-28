@@ -66,6 +66,7 @@ class Pizza(Circle):
     def __init__(self, color, isfill, radius, toping):
         super().__init__(color, isfill, radius)
         self.toping = toping
+        self.color = "fuck"
     
     
 circle1 = Circle("red", True, radius=5)
@@ -76,9 +77,5 @@ pizza1 = Pizza("yellow", True, 6, "cheeze")
 
 
 
-# circle1.describe()
-print(circle1.color)
-circle1.color = 5
-
-del circle1.color
+print(pizza1.color)
 
